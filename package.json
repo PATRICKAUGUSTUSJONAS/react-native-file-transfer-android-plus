@@ -1,11 +1,11 @@
 {
-  "name": "react-native-file-transfer-android",
+  "name": "react-native-file-transfer-android-plus",
   "version": "0.0.2",
   "description": "multipart/form-data file upload for react-native android",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blahoink/react-native-file-transfer-android.git"
+    "url": "git+https://github.com/ds3783/react-native-file-transfer-android-plus.git"
   },
   "keywords": [
     "react-native",
@@ -16,12 +16,12 @@
     "upload",
     "image-upload"
   ],
-  "author": "Albert Chen",
+  "author": "Ds.3783",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/blahoink/react-native-file-transfer-android/issues"
+    "url": "https://github.com/ds3783/react-native-file-transfer-android-plus/issues"
   },
-  "homepage": "https://github.com/blahoink/react-native-file-transfer-android#readme",
+  "homepage": "https://github.com/ds3783/react-native-file-transfer-android-plus#readme",
   "peerDependencies": {
     "react-native": ">=0.16.0"
   }
