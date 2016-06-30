@@ -1,6 +1,8 @@
-#react-native-image-upload-android
+#react-native-image-upload-android-plus
 
 Upload images or files through a multipart/form-data request
+
+This is an upgrade version of react-native-image-upload-android with 'data' parameter implementation.
 
 ###Installation
 
