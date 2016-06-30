@@ -92,6 +92,20 @@ public class FileTransferModule extends ReactContextBaseJavaModule {
                 )
                 .build();
 
+        if (data!=null){
+            ReadableMapKeySetIterator iter = data.keySetIterator();
+            while (iter.hasNextKey()) {
+                String key = iter.nextKey();
+                String val = data.getString(key);
+                builder =  builder.addPart(
+                        Headers.of("Content-Disposition",
+                                "form-data; name=\"" + key + "\""
+                        ),
+                        RequestBody.create(null, val)
+                );
+            }
+        }
+
         Request request = new Request.Builder()
                 .header("Accept", "application/json")
                 .url(url)
